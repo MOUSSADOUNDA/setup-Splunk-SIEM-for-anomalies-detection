@@ -36,3 +36,6 @@ The potential threat machine is a metasploitable2 machine with the address 192.1
 We can see that the metasploitable machine is trying an SSH connection with the Ubuntu server and was not able to connect because the SSH server on the ubuntu server have a Key-based authentication
 ![sp_2](https://github.com/MOUSSADOUNDA/setup-Splunk-SIEM-for-anomalies-detection/assets/129728703/8e1bc1a2-d5d3-4483-8de6-ddcd17ffe231)
 
+
+This was a small setup of a SIEM environment using Splunk Enterprise, we can follow the same procedure setup Splunk Universal Forwarder on multiples remote machine and collect specific types of logs.
+With a Multiple events source to the SIEM we will use more complex SPL commands and create a sophisticated dashboard for anomalies detection. 
