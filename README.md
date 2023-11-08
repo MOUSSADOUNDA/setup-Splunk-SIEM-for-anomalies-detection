@@ -29,3 +29,10 @@ In order to create the SIEM Dashbaord we use Splunk Dashboard Studio. Splunk Das
 
 We created the Dashboard by using Splunk SPL Commands to search specific events in the events dataset. The scope of SPL includes data searching, filtering, modification, manipulation, insertion, and deletion.
 ![SOC_2023-11-08 at 11 03 50+0530_Splunk](https://github.com/MOUSSADOUNDA/setup-Splunk-SIEM-for-anomalies-detection/assets/129728703/9f22fede-6a29-40ed-94ce-7d4b3ce1ab02)
+
+The potential threat machine is a metasploitable2 machine with the address 192.168.150.129. Lets suppose that machine is trying unauthorized ssh connection
+![meta](https://github.com/MOUSSADOUNDA/setup-Splunk-SIEM-for-anomalies-detection/assets/129728703/6e5f5aa3-fec4-4442-94ff-679893125ed7)
+
+We can see that the metasploitable machine is trying an SSH connection with the Ubuntu server and was not able to connect because the SSH server on the ubuntu server have a Key-based authentication
+![sp_2](https://github.com/MOUSSADOUNDA/setup-Splunk-SIEM-for-anomalies-detection/assets/129728703/8e1bc1a2-d5d3-4483-8de6-ddcd17ffe231)
+
