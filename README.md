@@ -24,3 +24,8 @@ Now we add log sources to the Splunk forwaerder including:
 
 After all the configuration are done, we are receive data from the Ubuntu server called "moussa"
 ![sp_1](https://github.com/MOUSSADOUNDA/setup-Splunk-SIEM-for-anomalies-detection/assets/129728703/fcebb2b1-4bdc-4aa2-bb97-3199273a5dcf)
+
+In order to create the SIEM Dashbaord we use Splunk Dashboard Studio. Splunk Dashboard Studio provides tools to customize dashboards in Splunk, such as designing your dashboard's layout, colors, images, and more.
+
+We created the Dashboard by using Splunk SPL Commands to search specific events in the events dataset. The scope of SPL includes data searching, filtering, modification, manipulation, insertion, and deletion.
+![SOC_2023-11-08 at 11 03 50+0530_Splunk](https://github.com/MOUSSADOUNDA/setup-Splunk-SIEM-for-anomalies-detection/assets/129728703/9f22fede-6a29-40ed-94ce-7d4b3ce1ab02)
