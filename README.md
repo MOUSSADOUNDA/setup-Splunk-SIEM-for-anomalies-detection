@@ -21,3 +21,6 @@ Now we add log sources to the Splunk forwaerder including:
 /var/log/suricata/fast.log
 ![s_00](https://github.com/MOUSSADOUNDA/setup-Splunk-SIEM-for-anomalies-detection/assets/129728703/718da19a-8e88-4a60-820e-7e9ed902ecf3)
 ![auth](https://github.com/MOUSSADOUNDA/setup-Splunk-SIEM-for-anomalies-detection/assets/129728703/8b21fbbd-8133-4d3c-8b7d-3562bd5c7175)
+
+After all the configuration are done, we are receive data from the Ubuntu server called "moussa"
+![sp_1](https://github.com/MOUSSADOUNDA/setup-Splunk-SIEM-for-anomalies-detection/assets/129728703/fcebb2b1-4bdc-4aa2-bb97-3199273a5dcf)
